@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(n)
-  # code #display_card_total here
+  "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -15,7 +15,7 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+  gets.chomp
 end
 
 def end_game
